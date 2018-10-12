@@ -1,0 +1,118 @@
+
+
+    <div>
+          <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper white">
+            <img class="image" src="src/business-support-2-b.png">
+          </div>
+        </nav>
+      </div>
+      <div #scrollMe class="scroll-chat">
+      <ul id="slide-out" class="side-nav fixed grey darken-3 width">
+        <div class="head-align"><i class="material-icons left-align">web</i><span class="left-nav">Overview</span></div>
+        <div  class="head-align"><i class="material-icons left-align">account_box</i><span class="left-nav">Candidates</span></div>
+        <div  class="head-align"> <i class="material-icons left-align">show_chart</i><span class="left-nav">Analytics</span></div>
+      </ul>
+    </div>
+    </div>
+      <div class="container">
+        <!-- Page Content goes here -->
+        <div class="row row-margin">
+          <div class="col s12 m6 l6 offset-m3 ">
+            <div class="card card-bott">
+              <div class="card-content card-title">
+              <i class="material-icons grey-text text-darken-1 left">remove_red_eye</i>
+                <span class="bold head-font-size">Candidate Profile:Syd Barret</span>
+                <a class="waves-effect waves-light btn-flat right icon-padding" ><i class="material-icons icon">keyboard_arrow_right</i></a>
+                <a class="waves-effect waves-light btn-flat right"><i class="material-icons">keyboard_arrow_left</i></a>
+              </div>
+              <div class="divider"></div>
+              <div class="card-content row">
+                <div class="col S12 m6 l8 hor-div">
+                <div class="heading"> Experience:</div>
+
+                  <li>2014-2016: Senior Software Engineer, Google</li>
+                   <li>2012-2014: Software Engineer, Microsoft</li>
+
+              </div>
+              <div class="col s12 m6 l4">
+                <span class="heading"> Highlights:</span>
+                <li> Filed 3 patents</li>
+                <li> Published on HPCA</li>
+              </div>
+              </div>
+              <i class="material-icons">description</i>
+              Syd Barret +Bengaluru.docx
+            </div>
+
+          </div>
+
+          <div class="col s12 m6 l6 offset-m3">
+            <div class="card">
+              <div class="card-content card-title valign-wrapper">
+                <i class="valign material-icons grey-text text-darken-1 left">hourglass_empty</i>
+                <span class="bold font-size">Resume Processing queue</span>
+              </div>
+              <div class="divider"></div>
+              <div class="card-content card-bott">
+                <div class="section prog-bar">
+                  <p>DAVID+GILMOUR_Bengaluru.docx</p>
+                  <div class="progress  blue lighten-4">
+                    <div class="indeterminate blue" style="width: 70%"></div>
+                  </div>
+                </div>
+                  <div class="section prog-bar">
+                  <p>ROGER+WATERS.docx</p>
+                  <div class="progress  blue lighten-4">
+                    <div class="indeterminate blue" style="width: 50%"></div>
+                  </div>
+                </div>
+                  <div class="section prog-bar">
+                  <p>NICK+MASON.docx</p>
+                  <div class="progress  blue lighten-4">
+                    <div class="indeterminate blue" style="width: 50%"></div>
+                  </div>
+                </div>
+                  <div class="section prog-bar">
+                  <p>RICHARD+RIGHT.docx</p>
+                  <div class="progress blue lighten-4">
+                    <div [ngClass]="{indeterminate:'indeterminate blue',determinate:'determinate blue complete'}[progress]" ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row margin">
+          <div class="col s12 m6 l6 offset-m3">
+            <div class="card card-height">
+              <div class="card-content card-title valign-wrapper">
+               <i class="material-icons">insert_chart</i>
+               <span class="bold font-size head">CGPA Histogram</span>
+                <div class="divider"></div>
+              </div>
+              <div class="card-content ">
+                <!-- <google-chart [data]="data"></google-chart> -->
+                <canvas id="myChart" width="400" height="400"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l6 offset-m3">
+            <div class="card">
+              <div class="card-content card-title valign-wrapper">
+               <i class="material-icons">school</i>
+                <span class="bold font-size head">Top Schools</span>
+                <div class="divider"></div>
+              </div>
+               <div class="card-content card-bott">
+                <p style="color: #678d99">Schools <span class="heading float-right">Applicants</span></p>
+                <ul *ngFor = "let x of top_schools_data ">
+                  <li class="underline"><p>{{x.school}}<span class="float-right">{{x.applicant}}</span></p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>

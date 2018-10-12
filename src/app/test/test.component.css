@@ -1,0 +1,81 @@
+.image{
+	width: 5%;
+}
+.row-margin{
+	margin-left: 1%
+}
+.head-font-size{
+	font-size: 17px;
+}
+.icon-padding{
+	font-size: 5px;
+	padding: 0
+}
+.hor-div{
+	border-right: 1px solid darkgrey;
+}
+.heading{
+	color: #678d99;
+
+}
+.width{
+	width: 15%;
+
+}
+.left-nav{
+	color: white;
+	margin-left:40%;
+	margin-top: 36px;
+}
+.prog-bar{
+	padding: 0;
+}
+.card-bott{
+	padding-bottom: 5px;
+}
+.underline{
+
+	border-bottom: 1px solid darkgrey;
+}
+.float-right{
+	float: right;
+}
+.complete{
+	width: 100%;
+}
+.card-height{
+	height: 520px;
+}
+.left-align{
+	color: white;
+	margin-top:30px;
+}
+.head-align{
+	display: flex;
+}
+.head{
+	padding: 10px
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: yellow; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: yellow; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: yellow; 
+}
+.scroll-chat{
+    overflow-y: scroll; 
+    overflow-x: hidden;;
+}

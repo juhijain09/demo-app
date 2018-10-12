@@ -1,0 +1,17 @@
+.side-bar{
+	float: right;
+	width: 10%;
+	background-color:black;
+	height: -webkit-fill-available;
+
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 1s linear;
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}

@@ -1,0 +1,30 @@
+/* fix for broken search box */
+/*http://stackoverflow.com/questions/36825618/materialize-css-navbar-search-is-broken*/
+input[type="search"] {
+  height: 64px !important; /* or height of nav */
+}
+body {
+    background-color: #eeeeee;
+}
+main{
+  padding-left: 250px;
+}
+.container{
+  width: 90%;
+  padding-top: 3rem;
+  margin-left: 4%;
+}
+.bold{
+  font-weight: 600 !important
+}
+#slide-out{
+  top:65px;
+}
+.material-icons{
+  font-size: 2.2rem !important;
+}
+@media only screen and (max-width: 992px){
+  main{
+    padding-left: 0px;
+  }
+}
